@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="jquery-3.5.1.min.js"></script>
+<script src="canvasjs.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+			$.getJson("demo_chart.php",function(result) {
+					var chart = new CanvasJS.Chart("chartContainer", {
+											data: [{
+												type: "pie",
+												dataPoints: result
+											}]
+			});
+		});
+		chart.render();
+	});
+
+
+</script>
+
+
+</head>
+<body>
+<div id="chartContainer" style="height: 370px; max-width: 920px; margin: 0px auto;"></div>
+
+
+
+</body>
+</html>

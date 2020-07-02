@@ -1,0 +1,27 @@
+.navbar-brand{
+    font-weight: 600;
+}
+
+.rounded-circle{
+    /* padding: 3px; */
+    width: 4rem;
+    margin-left: 15px;
+}
+
+.nav-link{
+  font-weight: 900;
+}
+
+.row{
+  /* margin: auto 2; */
+}
+
+.row hr{
+  margin-bottom: 10px;
+  background-color: green;
+}
+
+.row{
+  margin-bottom: 20px;
+
+}

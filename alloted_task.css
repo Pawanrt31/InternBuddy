@@ -1,0 +1,13 @@
+.navbar-brand{
+    font-weight: 600;
+}
+
+.rounded-circle{
+    /* padding: 3px; */
+    width: 4rem;
+    margin-left: 15px;
+}
+
+.nav-link{
+  font-weight: 900;
+}
