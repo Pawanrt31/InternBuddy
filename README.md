@@ -1,4 +1,4 @@
-# Interns-Management-System
+# InternBuddy (Interns Management Dashboard)
 A simple and easy system aimed at providing good user experience and ease at use of various functionalities such as
 1. Adding new interns.
 2. Updating existing interns.
